@@ -1,0 +1,18 @@
+Advantages of BFS:
+
+1. It always gives the shortest path from the source to any reachable node.
+2. It can also be used to find the connected components of an undirected graph.
+Advantages of DFS:
+
+1. It is more memory efficient than BFS as it only requires a stack to store the visited vertices.
+2. It can be used to find all the strongly connected components of a directed graph.
+b)
+
+Disadvantages of BFS:
+
+1. It requires more memory than DFS as it has to store all the nodes at each level of the tree.
+2. It is not very efficient for graphs with high branching factor.
+Disadvantages of DFS:
+
+1. It may take longer to find a solution than BFS as it may get stuck exploring one branch of the tree.
+2. It may not necessarily find the shortest path.
